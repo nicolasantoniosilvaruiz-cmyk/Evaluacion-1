@@ -1,0 +1,156 @@
+/*RESET BÁSICO*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*BODY*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+/*HEADER*/
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+}
+.header-caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton-registro {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+/*NAV*/
+nav {
+    background-color: #2c2c3e;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #ff6b00;
+}
+
+
+/*PRESENTACION*/
+.presentacion {
+    padding: 40px;
+}
+.contenido-presentacion {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.presentacion img {
+    width: 50%;
+    border-radius: 10px;
+}
+.presentacion .texto {
+    width: 50%;
+}
+.boton-principal {
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+/*SERVICIOS*/
+.servicios {
+    padding: 40px;
+    background-color: white;
+}
+.servicios h2 {
+    margin-bottom: 30px;
+}
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.servicios article {
+    background-color: #eaeaea;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+/*PROFESIONALES*/
+.profesionales {
+    padding: 40px;
+}
+.contenedor-profesionales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.profesionales article {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+.profesionales img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*CONTACTO*/
+.contacto {
+    padding: 40px;
+    background-color: #f0f0f0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
